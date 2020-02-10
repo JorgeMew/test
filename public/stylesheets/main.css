@@ -1,0 +1,11 @@
+
+#showPageText{
+    padding:6px;
+}
+#deleteForm{
+    display:inline;
+}
+#showImg {
+max-height:50vh;
+object-fit:contain;
+}
