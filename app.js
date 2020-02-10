@@ -20,7 +20,7 @@ var port = process.env.PORT || 5000;
 
 
 
-mongoose.connect("mongodb://localhost/yelp_camp", {
+mongoose.connect("mongodb+srv://jorgemew:h2iCJkUfgLlzA1il@cluster0-nidbs.mongodb.net/test?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 });
